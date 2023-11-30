@@ -1,0 +1,14 @@
+ HTML 5
+CSS
+Python-3.10
+Flask
+Matplotlib
+openai
+Transformers
+Pandas
+langchain
+os
+datetime
+numpy
+re
+textwrap
