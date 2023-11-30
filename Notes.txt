@@ -1,0 +1,27 @@
+sudo apt install python3-venv
+python3 -m venv venv
+source venv/bin/activate
+pip install Flask
+pip freeze > requirements.txt
+
+
+
+
+pip freeze > requirements.txt
+
+requirement.txt :
+
+HTML 5
+CSS
+Python-3.10
+Flask
+Matplotlib
+openai
+Transformers
+Pandas
+langchain
+os
+datetime
+numpy
+re
+textwrap
