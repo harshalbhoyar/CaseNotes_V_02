@@ -7,8 +7,7 @@ pip freeze > requirements.txt
 
 
 
-pip freeze > requirements.txt
-
+========================================================
 requirement.txt :
 
 HTML 5
@@ -25,3 +24,4 @@ datetime
 numpy
 re
 textwrap
+==========================================================
