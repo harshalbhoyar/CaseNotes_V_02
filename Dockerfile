@@ -1,12 +1,6 @@
 FROM python:3.11.4-slim-buster
 
-WORKDIR /home/ec2-user/CaseNotes_V_02
-
-RUN pip install --upgrade pip
-
-RUN python3 -m venv venv
-
-RUN source venv/bin/activate
+WORKDIR /home/ubuntu/CaseNotes_V_02
 
 RUN pip install flask
 
@@ -16,6 +10,7 @@ RUN pip install -r requirements.txt
 
 COPY . .
 
-EXPOSE 5000 
+EXPOSE 5000
 
-CMD [ "python", "app.py" ]
+CMD [ "python3", "app.py" ]
+

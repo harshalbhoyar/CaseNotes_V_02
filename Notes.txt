@@ -1,9 +1,47 @@
+Locally :
+
 sudo apt install python3-venv
 python3 -m venv venv
 source venv/bin/activate
 pip install Flask
 pip freeze > requirements.txt
 pip install -r requirements.txt
+
+===============================================================
+
+Ubuntu Instacne :
+
+pip install Flask
+pip install -r requirements.txt
+
+=========================================================
+
+Dockerfile :
+
+FROM python:3.11.4-slim-buster
+
+WORKDIR /home/ubuntu/CaseNotes_V_02
+
+RUN pip install flask
+
+COPY requirements.txt requirements.txt
+
+RUN pip install -r requirements.txt
+
+COPY . .
+
+EXPOSE 5000
+
+CMD [ "python3", "app.py" ]
+
+=================================================
+
+SCP command :
+
+scp -i ~/Downloads/terraform.pem ubuntu@3.81.210.234:/home/ubuntu/CaseNotes_V_02/commands.txt .
+
+=====================================================
+
 
 
 
@@ -26,3 +64,14 @@ numpy
 re
 textwrap
 ==========================================================
+
+After creating EC2 instance :
+sudo apt-get update
+sudo apt install docker 
+sudo groupadd docker
+sudo gpasswd -a $USER docker
+sudo usermod -a -G docker $USER
+
+
+
+
