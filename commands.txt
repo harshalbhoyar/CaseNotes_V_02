@@ -1,0 +1,354 @@
+    1  git --version
+    2  docker --version
+    3  sudo usermod -aG ec2-user
+    4  sudo usermod -aG $USER
+    5  docker images
+    6  sudo docker images
+    7  sudo -su
+    8  sudo su
+    9  whoami
+   10  sudo usermod -aG ubuntu
+   11  docker images
+   12  sudo su
+   13  ls
+   14  ls -ltr
+   15  git clone https://github.com/harshalbhoyar/CaseNotes_V_02.git
+   16  ls -ltr
+   17  cd CaseNotes_V_02/
+   18  ls -ltr
+   19  python --version
+   20  docker build -t demoapp .
+   21  sudo docker images
+   22  docker images
+   23  sudo usermod -aG ubuntu
+   24  vi /etc/sudoers
+   25  sudo vi /etc/sudoers
+   26  docker images
+   27  sudo usermod -aG ubuntu
+   28  restart
+   29  sudo restart
+   30  sudo reboot
+   31  docker images
+   32  sudo usermod -aG ubuntu
+   33  whoami
+   34  docker images
+   35  docker --version
+   36  sudo apt install docker
+   37  docker images
+   38  sudo usermod -aG docker
+   39  docker images
+   40  sudo groupadd docker
+   41  sudo gpasswd -a $USER docker
+   42  $ sudo service docker restart
+   43  sudo service docker restart
+   44  sudo service docker.io restart
+   45  docker images
+   46  sudo usermod -aG $USER
+   47  docker
+   48  docker images
+   49  sudo status docker
+   50  sudo service docker status
+   51  ls
+   52  cd CaseNotes_V_02/
+   53  ls
+   54  docker build -t demo .
+   55  sudo docker build -t demo .
+   56  docker images
+   57  [200~ sudo groupadd docker
+   58  sudo groupadd docker
+   59  docker run --help
+   60  sudo chown root:docker /var/run/docker.sock
+   61  sudo chown -R root:docker /var/run/docker
+   62  docker images
+   63  docker run hello-world
+   64  sudo usermod -a -G docker $USER
+   65  reboot
+   66  sudo reboot
+   67  sudo su
+   68  docker images
+   69  docker ps -a
+   70  historu
+   71  history
+   72  docker images
+   73  ls 
+   74  cd CaseNotes_V_02/
+   75  ls -ltr
+   76  vim Dockerfile 
+   77  docker images
+   78  docker rmi
+   79  docker rmi -a
+   80  docker images -a
+   81  docker rmi 99086
+   82  docker rmi 9908644cb7b1
+   83  docker ps -a
+   84  docker rm bec186
+   85* 
+   86  docker rmi 9908644cb7b1
+   87  docker images
+   88  ls
+   89  sudo docker build -t demo .
+   90  vim Dockerfile 
+   91  python3 --version
+   92  python --version
+   93* 
+   94  docker images
+   95  sudo docker build -t demo1 .
+   96  vim Dockerfile 
+   97  sudo docker build -t demo2 .
+   98  vim Dockerfile 
+   99  sudo docker build -t demo3 .
+  100  cd .. 
+  101  ls
+  102  cd CaseNotes_V_02/
+  103  ls
+  104  pwd
+  105  ls -ltr
+  106  pip install venv
+  107  sudo apt install python3-pip
+  108  pip install venv
+  109  sudo pip install venv
+  110  sudo pip install virtualenv
+  111  ls -ltr
+  112  pip install venv
+  113  sudo apt install python3-venv
+  114  vim Dockerfile 
+  115  sudo docker build -t demo3 .
+  116  vim Dockerfile 
+  117  sudo docker build -t demo3 .
+  118  vim Dockerfile 
+  119  sudo docker build -t demo3 .
+  120  history 
+  121  vim Dockerfile 
+  122  history 
+  123  sudo docker build -t demo3 .
+  124  vim Dockerfile 
+  125  sudo docker build -t demo3 .
+  126  vim Dockerfile 
+  127  sudo docker build -t demo3 .
+  128  vim Dockerfile 
+  129  sudo docker build -t demo3 .
+  130  vim Dockerfile 
+  131  sudo docker build -t demo3 .
+  132  vim Dockerfile 
+  133  sudo docker build -t demo3 .
+  134  vim Dockerfile 
+  135  sudo docker build -t demo3 .
+  136  vim Dockerfile 
+  137  sudo docker build -t demo3 .
+  138  vim Dockerfile 
+  139  sudo docker build -t demo3 .
+  140  vim Dockerfile 
+  141  sudo docker build -t demo3 .
+  142  vim Dockerfile 
+  143  sudo docker build -t demo3 .
+  144  vim Dockerfile 
+  145  sudo docker build -t demo3 .
+  146  vim Dockerfile 
+  147  pip --version
+  148  ls 
+  149  python app.py 
+  150  python3 app.py 
+  151  pip install flask
+  152  python app.py 
+  153  python3 app.py 
+  154  pip install -r requirements.txt 
+  155  history
+  156  python3 app.py 
+  157  vim app.py 
+  158  python3 app.py 
+  159  vim app.py 
+  160  python3 app.py 
+  161  vim app.py 
+  162  python3 app.py 
+  163  vim Dockerfile 
+  164  sudo docker build -t demo3 .
+  165  docker images
+  166  vim Dockerfile 
+  167  sudo docker build -t demo3 .
+  168  docker images
+  169  docker run -d -p 5000:5000 demo3
+  170  docker ps -a
+  171* 
+  172  docker run -d -p 5000:5000 demo3
+  173  history
+  174  cat history > history.txt
+  175  history > commands.txt
+    1  git --version
+    2  docker --version
+    3  sudo usermod -aG ec2-user
+    4  sudo usermod -aG $USER
+    5  docker images
+    6  sudo docker images
+    7  sudo -su
+    8  sudo su
+    9  whoami
+   10  sudo usermod -aG ubuntu
+   11  docker images
+   12  sudo su
+   13  ls
+   14  ls -ltr
+   15  git clone https://github.com/harshalbhoyar/CaseNotes_V_02.git
+   16  ls -ltr
+   17  cd CaseNotes_V_02/
+   18  ls -ltr
+   19  python --version
+   20  docker build -t demoapp .
+   21  sudo docker images
+   22  docker images
+   23  sudo usermod -aG ubuntu
+   24  vi /etc/sudoers
+   25  sudo vi /etc/sudoers
+   26  docker images
+   27  sudo usermod -aG ubuntu
+   28  restart
+   29  sudo restart
+   30  sudo reboot
+   31  docker images
+   32  sudo usermod -aG ubuntu
+   33  whoami
+   34  docker images
+   35  docker --version
+   36  sudo apt install docker
+   37  docker images
+   38  sudo usermod -aG docker
+   39  docker images
+   40  sudo groupadd docker
+   41  sudo gpasswd -a $USER docker
+   42  $ sudo service docker restart
+   43  sudo service docker restart
+   44  sudo service docker.io restart
+   45  docker images
+   46  sudo usermod -aG $USER
+   47  docker
+   48  docker images
+   49  sudo status docker
+   50  sudo service docker status
+   51  ls
+   52  cd CaseNotes_V_02/
+   53  ls
+   54  docker build -t demo .
+   55  sudo docker build -t demo .
+   56  docker images
+   57  [200~ sudo groupadd docker
+   58  sudo groupadd docker
+   59  docker run --help
+   60  sudo chown root:docker /var/run/docker.sock
+   61  sudo chown -R root:docker /var/run/docker
+   62  docker images
+   63  docker run hello-world
+   64  sudo usermod -a -G docker $USER
+   65  reboot
+   66  sudo reboot
+   67  sudo su
+   68  docker images
+   69  docker ps -a
+   70  historu
+   71  history
+   72  docker images
+   73  ls 
+   74  cd CaseNotes_V_02/
+   75  ls -ltr
+   76  vim Dockerfile 
+   77  docker images
+   78  docker rmi
+   79  docker rmi -a
+   80  docker images -a
+   81  docker rmi 99086
+   82  docker rmi 9908644cb7b1
+   83  docker ps -a
+   84  docker rm bec186
+   85* 
+   86  docker rmi 9908644cb7b1
+   87  docker images
+   88  ls
+   89  sudo docker build -t demo .
+   90  vim Dockerfile 
+   91  python3 --version
+   92  python --version
+   93* 
+   94  docker images
+   95  sudo docker build -t demo1 .
+   96  vim Dockerfile 
+   97  sudo docker build -t demo2 .
+   98  vim Dockerfile 
+   99  sudo docker build -t demo3 .
+  100  cd .. 
+  101  ls
+  102  cd CaseNotes_V_02/
+  103  ls
+  104  pwd
+  105  ls -ltr
+  106  pip install venv
+  107  sudo apt install python3-pip
+  108  pip install venv
+  109  sudo pip install venv
+  110  sudo pip install virtualenv
+  111  ls -ltr
+  112  pip install venv
+  113  sudo apt install python3-venv
+  114  vim Dockerfile 
+  115  sudo docker build -t demo3 .
+  116  vim Dockerfile 
+  117  sudo docker build -t demo3 .
+  118  vim Dockerfile 
+  119  sudo docker build -t demo3 .
+  120  history 
+  121  vim Dockerfile 
+  122  history 
+  123  sudo docker build -t demo3 .
+  124  vim Dockerfile 
+  125  sudo docker build -t demo3 .
+  126  vim Dockerfile 
+  127  sudo docker build -t demo3 .
+  128  vim Dockerfile 
+  129  sudo docker build -t demo3 .
+  130  vim Dockerfile 
+  131  sudo docker build -t demo3 .
+  132  vim Dockerfile 
+  133  sudo docker build -t demo3 .
+  134  vim Dockerfile 
+  135  sudo docker build -t demo3 .
+  136  vim Dockerfile 
+  137  sudo docker build -t demo3 .
+  138  vim Dockerfile 
+  139  sudo docker build -t demo3 .
+  140  vim Dockerfile 
+  141  sudo docker build -t demo3 .
+  142  vim Dockerfile 
+  143  sudo docker build -t demo3 .
+  144  vim Dockerfile 
+  145  sudo docker build -t demo3 .
+  146  vim Dockerfile 
+  147  pip --version
+  148  ls 
+  149  python app.py 
+  150  python3 app.py 
+  151  pip install flask
+  152  python app.py 
+  153  python3 app.py 
+  154  pip install -r requirements.txt 
+  155  history
+  156  python3 app.py 
+  157  vim app.py 
+  158  python3 app.py 
+  159  vim app.py 
+  160  python3 app.py 
+  161  vim app.py 
+  162  python3 app.py 
+  163  vim Dockerfile 
+  164  sudo docker build -t demo3 .
+  165  docker images
+  166  vim Dockerfile 
+  167  sudo docker build -t demo3 .
+  168  docker images
+  169  docker run -d -p 5000:5000 demo3
+  170  docker ps -a
+  171* 
+  172  docker run -d -p 5000:5000 demo3
+  173  history
+  174  cat history > history.txt
+  175  history > commands.txt
+  176  ls -ltr
+  177  cat > history.txt 
+  178  rm -rf history.txt 
+  179  history >> commands.txt
