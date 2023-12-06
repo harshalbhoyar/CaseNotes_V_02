@@ -1,16 +1,15 @@
-FROM python:3.11.4-slim-buster
-
-WORKDIR /home/ubuntu/CaseNotes_V_02
-
-RUN pip install flask
-
-COPY requirements.txt requirements.txt
-
+FROM python:3.10-slim
+ 
+WORKDIR /app
+ 
+COPY . /app
+RUN pip install --upgrade pip
+RUN pip install virtualenv
+RUN pip install --no-dependencies transformers==4.10.0
 RUN pip install -r requirements.txt
-
-COPY . .
-
+ 
 EXPOSE 5000
-
-CMD [ "python3", "app.py" ]
-
+ 
+ENV NAME World
+ 
+CMD ["python", "app.py"]
